@@ -2,7 +2,7 @@
 footer {
   grid-area: footer;
   background-color: rgb(3, 10, 29);
-  height: 80vh;
+  height: 100%;
   color: white;
 }
 
@@ -86,7 +86,6 @@ footer {
   margin-bottom: 0;
 }
 
-
 .social-media-icon a {
   color: white;
   font-size: 30px;
@@ -109,8 +108,6 @@ footer {
 .contact-me {
   width: 100px;
 }
-
-
 
 @media (min-width: 575px) {
  .image-cycle {
