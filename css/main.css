@@ -1,0 +1,130 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  align-items: center;
+}
+
+.matembo-photo {
+  width: 390px;
+  height: auto;
+  object-fit: contain;
+  
+}
+
+.overlay-text {
+  position: absolute;
+  left: 0;
+  top: 120px;
+  font-size: 4.375rem;
+  margin-left: 1.625rem;
+  background: linear-gradient(to right, rgb(255, 166, 0), rgb(10, 116, 6), rgb(255, 166, 0, 1));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.overlay-text1 {
+  display: none;
+}
+
+.overlay-text2 {
+  position: absolute;
+  right: 30px;
+  top: 80px;
+  rotate: -45deg;
+}
+
+.overlay-text3 {
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+}
+
+.overlay-text4 {
+  display: none;
+}
+
+@media (min-width: 1px) and (max-width: 400px) {
+  
+}
+
+@media (min-width: 450px) {
+ 
+}
+
+
+@media (min-width: 575px) {
+  .overlay-text {
+    font-size: 80px;
+    top: 60px;
+  }
+
+  .overlay-text1 {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    font-weight: 100;
+  }
+
+  .overlay-text2 {
+    position: absolute;
+    right: 30px;
+    top: 190px;
+    rotate: -45deg;
+  }
+  .overlay-text3 {
+    left: 100px;
+  }
+}
+
+
+@media (min-width: 760px) and (max-width: 999px) {
+  .overlay-text {
+    font-size: 100px;
+    top: 0;
+  } 
+
+  .overlay-text1 {
+    right: 200px;
+  }
+
+  .overlay-text2 {
+    top: 400px;
+    right: 150px;
+  }
+
+  .overlay-text4 {
+    display: block;
+    position: absolute;
+    width: 20%;
+    right: 20px;
+    top: 160px;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .overlay-text {
+    font-size: 120px;
+    top: 0;
+  } 
+
+  .overlay-text1 {
+    right: 200px;
+  }
+
+  .overlay-text2 {
+    top: 400px;
+    right: 150px;
+  }
+
+  .overlay-text4 {
+    display: block;
+    position: absolute;
+    width: 30%;
+    right: 20px;
+    top: 160px;
+  }
+}

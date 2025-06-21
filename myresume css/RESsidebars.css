@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*SIDEBAR SYLES*/
+.container-fluid {
+  margin-top: 10px;
+  color: black;
+  margin-left: 10px;
+}
+
+.container-fluid h2 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.contact-div {
+  color: black;
+}
+
+.about-me {
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.contact-div hr {
+  width: 100%;
+  max-width: 400px;
+  margin-left: 10px;
+  color: black;
+}
+
+.contact-div p {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/*li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+  */
+
+/*Animated Underline on hover*/
+.social-link {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.social-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.social-link:hover:after {
+  width: 100%;
+}

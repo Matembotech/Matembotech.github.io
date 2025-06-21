@@ -1,0 +1,180 @@
+/*About Section*/
+#about h2 {
+  text-align: center;
+}
+
+#about hr {
+  width: 220px;
+}
+
+#about p {
+  margin-left: 0.5rem;
+}
+
+/*Services Section*/
+#services h2 {
+  text-align: center;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  1fr;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  margin-left: 0.5rem;
+}
+
+.skills-container hr {
+  width: 0.25rem;
+  height: auto;
+  background-color: gray;
+} 
+
+.graphics h6 {
+  font-size: 25px;
+  color: rgb(136, 127, 127);
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+/*Skills in % section*/
+#skills h2 {
+  text-align: center;
+}
+
+#skills hr {
+  width: 240px;
+}
+
+#skills span {
+  margin-left: 0.5rem;
+}
+
+.webs {
+  width: 99%;
+  background-color: gray;
+}
+
+.web-percent {
+  background-color: red;
+  padding: 10px;
+  text-align: end;
+}
+
+.web {width: 90%; background:#FFA500;}
+.graphic {width: 95%; background:#FFA500;}
+.network {width: 98%; background:#FFA500;}
+.database {width: 90%; background:#FFA500;}
+
+.resume-button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  padding: 10px 50px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 2px 4px 10px green;
+}
+
+#Tools h2 {
+  text-align: center;
+}
+
+#Tools hr {
+  width: 200px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: start;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 0.375rem;
+  margin-right: 0.5rem;
+}
+
+#myworks {
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+
+#myworks h2 {
+  text-align: center;
+}
+
+#myworks hr {
+  width: 250px;
+}
+
+#myworks p {
+  font-size: 20px;
+}
+
+#myworks a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#myworks a:hover {
+  color: red;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact hr {
+  width: 250px;
+}
+
+#contact p {
+  margin-left: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: none;
+  background: linear-gradient(to right, rgba(245, 219, 172, 1), rgba(255,255,255,0), rgb(255, 166, 0, 1));
+  color: black;
+}
+
+form textarea {
+  width: 90%;
+  padding: 20px;
+  margin-left: 10px;
+  border: none;
+  background: linear-gradient(to right, rgba(245, 219, 172, 1), rgba(255,255,255,0), rgb(255, 166, 0, 1));
+  color: black;
+  width: 100%;
+}
+
+.black-placeholder::placeholder {
+ color: rgb(58, 54, 54);
+}
+
+form button {
+  margin-left: 10px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  padding: 10px 50px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 4px 10px green;
+}
+
+
+ 

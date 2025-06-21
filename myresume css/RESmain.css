@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header'
+  'nav nav nav nav nav nav'
+  'aside aside main main main main'
+  'aside aside footer footer footer footer';
+ background: linear-gradient(to right, rgba(255, 166, 0, 0.5), rgba(255,255,255,1), rgb(255, 166, 0, 0.5));
+ color: black;
+}
+
+header {
+  display: flex;
+  grid-area: header;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  margin-bottom: 0;
+}
+
+header img {
+  margin-left: 50px;
+}
+
+nav {
+  grid-area: nav;
+}
+
+aside {
+  grid-area: aside;
+  margin-top: 0;
+}
+
+main {
+  grid-area: main;
+  margin-top: 0;
+}
+
+footer {
+  grid-area: footer;
+}
+
+@media (max-width: 2000px) {
+  header h1 {
+    margin-right: 400px;
+  }
+}
+
+/* This @media means when the screen width is 1600px or
+   less, we will divide the grid into 6 columns. */
+@media (max-width: 1600px) {
+  header h1 {
+    margin-right: 400px;
+  }
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1000px) {
+  header h1 {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  header h1 {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+   body {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'nav'
+    'aside'
+    'main'
+    'footer';
+  }
+
+  header h1 {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'nav'
+    'aside'
+    'main'
+    'footer';
+  }
+
+  header h1 {
+    margin-right: 50px;
+  }
+}
